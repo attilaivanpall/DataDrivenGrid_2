@@ -1,0 +1,67 @@
+version: "3"
+
+services:
+    HubService:
+        image: selenium/hub:4.0.0
+        container_name: seleniumHub
+        privileged: true
+        ports:
+            - "4445:4444"
+            - "4442:4442"
+            - "4443:4443"
+        environment:
+            - GRID_TIMEOUT=240000
+            - GRID_BROWSER_TIMEOUT=240000
+            - GRID_MAX_SESSION=10
+
+    ChromeService:
+        image: selenium/node-chrome:4.0.0-20211102
+        shm_size: "2gb"
+        container_name: chromeNode
+        privileged: true
+        ports:
+            - 4446:5900
+        environment:
+            - SE_EVENT_BUS_HOST=seleniumHub
+            - SE_EVENT_BUS_PUBLISH_PORT=4442
+            - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+            - HUB_HOST=seleniumHub
+            - HUB_PORT=4444
+            - no_proxy=localhost
+            - SE_NODE_MAX_SESSIONS=2
+        depends_on:
+            - HubService
+
+    FirefoxService:
+        image: selenium/node-firefox:4.0.0-20211102
+        container_name: firefoxNode
+        privileged: true
+        ports:
+            - 4447:5900
+        environment:
+            - SE_EVENT_BUS_HOST=seleniumHub
+            - SE_EVENT_BUS_PUBLISH_PORT=4442
+            - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+            - HUB_HOST=seleniumHub
+            - HUB_PORT=4444
+            - no_proxy=localhost
+            - SE_NODE_MAX_SESSIONS=2
+        depends_on:
+            - HubService
+
+    EdgeService:
+        image: selenium/node-edge:4.0.0-20211102
+        container_name: edgeNode
+        privileged: true
+        ports:
+            - 4448:5900
+        environment:
+            - SE_EVENT_BUS_HOST=seleniumHub
+            - SE_EVENT_BUS_PUBLISH_PORT=4442
+            - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+            - HUB_HOST=seleniumHub
+            - HUB_PORT=4444
+            - no_proxy=localhost
+            - SE_NODE_MAX_SESSIONS=2
+        depends_on:
+            - HubService

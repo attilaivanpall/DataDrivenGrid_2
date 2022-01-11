@@ -1,0 +1,63 @@
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,708 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,708 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:33,702 DEBUG devpinoyLogger:91 - Config file is loaded.
+08:39:33,709 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:33,708 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:33,707 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:33,709 DEBUG devpinoyLogger:106 - OR file is loaded.
+08:39:37,496 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Browser opened successfully chrome
+08:39:37,496 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Browser opened successfully chrome
+08:39:37,954 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Browser opened successfully edge
+08:39:41,458 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Clicking on button: bankManagerLoginBtn_CSS
+08:39:43,318 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Clicking on button: openAccountBtn_CSS
+08:39:43,536 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Clicking on button: bankManagerLoginBtn_CSS
+08:39:44,184 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Browser opened successfully edge
+08:39:45,108 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Clicking on button: addCustomerBtn_CSS
+08:39:45,391 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Selecting Hermoine Granger element from customerDDFld_ID dropdown list.
+08:39:46,491 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Typing on button: firstNameFld_CSS
+08:39:46,602 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Clicking on button: bankManagerLoginBtn_CSS
+08:39:47,005 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Selecting Rupee element from currencyDDFld_ID dropdown list.
+08:39:47,080 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Typing on button: lastNameFld_XPATH
+08:39:47,400 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Clicking on button: addCustomerBtn_CSS
+08:39:47,776 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   Clicking on button: processBtn_CSS
+08:39:48,382 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Typing on button: postCodeFld_CSS
+08:39:48,392 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Value verification is unsuccessful: Actual value: asdf - Expected value: hjk
+08:39:49,112 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Assertion is successful: addBtn_CSS
+08:39:49,468 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Typing on button: firstNameFld_CSS
+08:39:49,580 DEBUG devpinoyLogger:60 - Browser : chrome - (0049927cc0e629e8d40546f8759337c3)   openAccountTest testcase is PASSED.
+08:39:50,518 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   Clicking on button: addBtn_CSS
+08:39:50,807 DEBUG devpinoyLogger:60 - Browser : chrome - (3a70d84b627adec8c6a10869e0c66b9b)   addCustomerTest testcase is PASSED.
+08:39:51,254 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Clicking on button: bankManagerLoginBtn_CSS
+08:39:51,639 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Typing on button: lastNameFld_XPATH
+08:39:52,299 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Typing on button: postCodeFld_CSS
+08:39:52,299 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Value verification is unsuccessful: Actual value: asdf - Expected value: hjk
+08:39:52,475 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Assertion is successful: addBtn_CSS
+08:39:52,791 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Clicking on button: openAccountBtn_CSS
+08:39:52,890 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Browser opened successfully firefox
+08:39:53,098 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   Clicking on button: addBtn_CSS
+08:39:53,553 DEBUG devpinoyLogger:60 - Browser : msedge - (22dad6d9088521fae96f5977c2a554d7)   addCustomerTest testcase is PASSED.
+08:39:54,172 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Selecting Ron Weasly element from customerDDFld_ID dropdown list.
+08:39:54,829 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Selecting Pound element from currencyDDFld_ID dropdown list.
+08:39:55,319 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   Clicking on button: processBtn_CSS
+08:39:55,863 DEBUG devpinoyLogger:60 - Browser : msedge - (e2af7a3a3a388fdeab071832977bd3bc)   openAccountTest testcase is PASSED.
+08:39:56,550 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Browser opened successfully firefox
+08:39:58,680 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Clicking on button: bankManagerLoginBtn_CSS
+08:39:59,403 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Clicking on button: openAccountBtn_CSS
+08:39:59,598 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Clicking on button: bankManagerLoginBtn_CSS
+08:40:00,040 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Clicking on button: addCustomerBtn_CSS
+08:40:00,139 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Selecting Harry Potter element from customerDDFld_ID dropdown list.
+08:40:00,515 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Typing on button: firstNameFld_CSS
+08:40:00,713 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Typing on button: lastNameFld_XPATH
+08:40:00,814 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Typing on button: postCodeFld_CSS
+08:40:00,814 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Value verification is unsuccessful: Actual value: asdf - Expected value: hjk
+08:40:00,838 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Selecting Dollar element from currencyDDFld_ID dropdown list.
+08:40:00,872 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Assertion is successful: addBtn_CSS
+08:40:01,162 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   Clicking on button: processBtn_CSS
+08:40:01,305 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   Clicking on button: addBtn_CSS
+08:40:01,373 DEBUG devpinoyLogger:60 - Browser : firefox - (26a2daa5-9974-406b-ba49-7227c830459c)   openAccountTest testcase is PASSED.
+08:40:01,530 DEBUG devpinoyLogger:60 - Browser : firefox - (073c3667-51c7-42b4-a1e5-d4dc63a9a6ee)   addCustomerTest testcase is PASSED.

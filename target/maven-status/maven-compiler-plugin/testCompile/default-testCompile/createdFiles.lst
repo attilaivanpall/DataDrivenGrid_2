@@ -1,0 +1,10 @@
+rough\Test.class
+com\ipa\utilities\DataUtil.class
+com\ipa\utilities\DataProviders.class
+com\ipa\suite\bankmanager\testcases\AddCustomerTest.class
+com\ipa\utilities\ExtentManager.class
+com\ipa\utilities\Constants.class
+com\ipa\suite\bankmanager\testcases\OpenAccountTest.class
+com\ipa\utilities\ExcelReader.class
+com\ipa\base\TestBase.class
+com\ipa\listeners\CustomListeners.class

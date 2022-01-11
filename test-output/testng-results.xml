@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bank Manager Suite" duration-ms="31478" started-at="2022-01-11T08:38:05 CET" finished-at="2022-01-11T08:38:37 CET">
+    <groups>
+    </groups>
+    <test name="Add Customer Test" duration-ms="28773" started-at="2022-01-11T08:38:05 CET" finished-at="2022-01-11T08:38:34 CET">
+      <class name="com.ipa.suite.bankmanager.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="setUp" is-config="true" duration-ms="22" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="addCustomerTest" duration-ms="21215" started-at="2022-01-11T08:38:06 CET" data-provider="bankManagerDP" finished-at="2022-01-11T08:38:28 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=edge, postcode=F3454565, Runmode=Y, lastname=Arora, firstname=Ishita}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="setUp" is-config="true" duration-ms="4" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="setUp" is-config="true" duration-ms="3" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="addCustomerTest" duration-ms="25922" started-at="2022-01-11T08:38:06 CET" data-provider="bankManagerDP" finished-at="2022-01-11T08:38:32 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=D3454564, Runmode=Y, lastname=Arora, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="addCustomerTest" duration-ms="20663" started-at="2022-01-11T08:38:06 CET" data-provider="bankManagerDP" finished-at="2022-01-11T08:38:27 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=A2323424, Runmode=Y, lastname=Arora, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="tearDown" is-config="true" duration-ms="349" started-at="2022-01-11T08:38:27 CET" finished-at="2022-01-11T08:38:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="tearDown" is-config="true" duration-ms="433" started-at="2022-01-11T08:38:28 CET" finished-at="2022-01-11T08:38:28 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.AddCustomerTest@c540f5a]" name="tearDown" is-config="true" duration-ms="1762" started-at="2022-01-11T08:38:32 CET" finished-at="2022-01-11T08:38:34 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ipa.suite.bankmanager.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="OpenAccountTest" duration-ms="31478" started-at="2022-01-11T08:38:05 CET" finished-at="2022-01-11T08:38:37 CET">
+      <class name="com.ipa.suite.bankmanager.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="setUp" is-config="true" duration-ms="2" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="openAccountTest" duration-ms="20215" started-at="2022-01-11T08:38:06 CET" data-provider="openAccountDP" finished-at="2022-01-11T08:38:27 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Pound, browser=edge, Runmode=Y, customer=Ron Weasly}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="setUp" is-config="true" duration-ms="5" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="setUp" is-config="true" duration-ms="9" started-at="2022-01-11T08:38:06 CET" finished-at="2022-01-11T08:38:06 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="openAccountTest" duration-ms="18584" started-at="2022-01-11T08:38:06 CET" data-provider="openAccountDP" finished-at="2022-01-11T08:38:25 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, browser=chrome, Runmode=Y, customer=Hermoine Granger}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="openAccountTest" duration-ms="29326" started-at="2022-01-11T08:38:06 CET" data-provider="openAccountDP" finished-at="2022-01-11T08:38:36 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, browser=firefox, Runmode=Y, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="tearDown" is-config="true" duration-ms="742" started-at="2022-01-11T08:38:26 CET" finished-at="2022-01-11T08:38:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="tearDown" is-config="true" duration-ms="724" started-at="2022-01-11T08:38:27 CET" finished-at="2022-01-11T08:38:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ipa.suite.bankmanager.testcases.OpenAccountTest@35083305]" name="tearDown" is-config="true" duration-ms="1053" started-at="2022-01-11T08:38:36 CET" finished-at="2022-01-11T08:38:37 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ipa.suite.bankmanager.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- Bank Manager Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [BankManagerSuite]" parallel="tests">
+  <test thread-count="6" name="AddCustomerTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.ipa.suite.bankmanager.testcases.AddCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addCustomerTest" invocation-numbers="0 2 1"/>
+        </methods>
+      </class> <!-- com.ipa.suite.bankmanager.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomerTest(failed) -->
+</suite> <!-- Failed suite [BankManagerSuite] -->
